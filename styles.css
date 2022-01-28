@@ -1,0 +1,48 @@
+html, body, div, p, h1, main {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    height: 470px;
+    padding: 14px;
+    width: 322px;
+
+}
+
+.image-container {
+    height: 285px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 0 14px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
